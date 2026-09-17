@@ -14,6 +14,10 @@
 | **费用** | 安装免费。每次生成消耗 Beatra 账号积分，只有你明确要求这次生成或批准确认卡后才会付费。 |
 | **支持的 Agent** | Claude Code、Codex、OpenClaw |
 
+<p align="center"><img src="assets/hero.webp" width="800" alt="根据简短需求生成的三张 2:3 海报：虚构独立音乐之夜 Marigold Static 的活动海报、虚构烘焙店 Little Quince Bakehouse 的秋季新品海报，以及虚构开发者聚会 Tidelane Dev Meetup 的极简海报。由 Beatra AI 生成。"></p>
+
+*根据简短需求生成的三张 2:3 海报：虚构独立音乐之夜 Marigold Static 的活动海报、虚构烘焙店 Little Quince Bakehouse 的秋季新品海报，以及虚构开发者聚会 Tidelane Dev Meetup 的极简海报。由 Beatra AI 生成。*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
 | [`poster-design-studio`](skills/poster-design-studio) | [SKILL.md](skills/poster-design-studio/SKILL.md) | 0.1.3 |

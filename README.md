@@ -14,6 +14,10 @@ Turn an event description, a product photo, or brand references into an event po
 | **Cost** | Free to install. Each render uses credits on your Beatra account, and paid steps run only when you ask for that exact render or approve its card. |
 | **Works with** | Claude Code, Codex, OpenClaw |
 
+<p align="center"><img src="assets/hero.webp" width="800" alt="Three 2:3 posters generated from short briefs: an indie music night for the fictional Marigold Static, a seasonal bun launch for the fictional Little Quince Bakehouse, and a minimal developer meetup poster for the fictional Tidelane Dev Meetup. AI-generated with Beatra."></p>
+
+*Three 2:3 posters generated from short briefs: an indie music night for the fictional Marigold Static, a seasonal bun launch for the fictional Little Quince Bakehouse, and a minimal developer meetup poster for the fictional Tidelane Dev Meetup. AI-generated with Beatra.*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
 | [`poster-design-studio`](skills/poster-design-studio) | [SKILL.md](skills/poster-design-studio/SKILL.md) | 0.1.3 |
