@@ -20,7 +20,7 @@ Turn an event description, a product photo, or brand references into an event po
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`poster-design-studio`](skills/poster-design-studio) | [SKILL.md](skills/poster-design-studio/SKILL.md) | 0.1.6 |
+| [`poster-design-studio`](skills/poster-design-studio) | [SKILL.md](skills/poster-design-studio/SKILL.md) | 0.2.0 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/poster-design-studio). Report issues there.
 
@@ -78,12 +78,12 @@ Yes. Every poster reserves a clean text-safe zone—top band, center, or lower t
 
 Yes. Upload the accepted poster, describe what to fix—a cluttered corner, color temperature, or headline contrast—and the edit targets only that area.
 
-## Updates
+## Updates and security
 
-Each installed skill checks for a new version at most once a day, verifies the
-official archive before replacing itself, and leaves your installation untouched
-if anything fails. Turn it off at any time — see
-`references/automatic-updates-and-safety.md` inside the skill.
+Since the 2026-10 release, this skill contains no self-updater: it runs only the
+files you installed and never replaces them on its own. Update it with the tool
+you installed it with — `npx skills update poster-design-studio` or `gh skill update poster-design-studio`.
+Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
