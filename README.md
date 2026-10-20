@@ -1,6 +1,8 @@
 # AI Poster Maker Skill
 
-English | [简体中文](./README.zh-CN.md)
+English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
+
+> 👉 See also [AI Logo Maker Skill](https://github.com/beatra-ai/ai-logo-maker-skill)
 
 Turn an event description, a product photo, or brand references into an event poster, promo banner, or social media graphic with clear visual hierarchy, category-matched style, and space kept for text, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 

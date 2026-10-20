@@ -1,6 +1,8 @@
 # AI Poster Maker Skill
 
-[English](./README.md) | 简体中文
+[English](./README.md) | 简体中文 | [日本語](./README.ja.md)
+
+> 👉 也看看 [AI Logo Maker Skill](https://github.com/beatra-ai/ai-logo-maker-skill)
 
 把一段活动描述、一张产品照片或品牌参考图，做成活动海报、宣传 banner 或社交媒体配图，视觉层级清晰、风格贴合品类，并预留文字区域，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 
