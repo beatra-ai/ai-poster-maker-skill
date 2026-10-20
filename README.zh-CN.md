@@ -7,7 +7,7 @@
 把一段活动描述、一张产品照片或品牌参考图，做成活动海报、宣传 banner 或社交媒体配图，视觉层级清晰、风格贴合品类，并预留文字区域，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 
 > [!IMPORTANT]
-> 生成需要 [Beatra](https://beatra.ai) 账号并消耗积分，安装本身不收费。
+> 生成需要 [Beatra](https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-poster-maker-skill) 账号并消耗积分，安装本身不收费。
 
 | 问题 | 回答 |
 | --- | --- |
@@ -23,7 +23,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`poster-design-studio`](skills/poster-design-studio) | [SKILL.md](skills/poster-design-studio/SKILL.md) | 0.2.2 |
+| [`poster-design-studio`](skills/poster-design-studio) | [SKILL.md](skills/poster-design-studio/SKILL.md) | 0.2.3 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/poster-design-studio) 自动发布，问题请到那里反馈。
 
@@ -119,8 +119,8 @@ gh skill install beatra-ai/ai-poster-maker-skill poster-design-studio
 
 ## 相关链接
 
-- 官网 — https://www.beatra.cn
-- 文档 — https://docs.beatra.cn
+- 官网 — https://www.beatra.cn?utm_source=github&utm_medium=flagship&utm_campaign=ai-poster-maker-skill
+- 文档 — https://docs.beatra.cn?utm_source=github&utm_medium=flagship&utm_campaign=ai-poster-maker-skill
 - 控制台 — https://console.beatra.cn
 - 给 AI Agent 读的说明 — https://www.beatra.cn/llms.txt（索引）· https://www.beatra.cn/llms-full.txt（全部 skill 合成一个文件）
 

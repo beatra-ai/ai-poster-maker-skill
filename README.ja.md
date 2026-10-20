@@ -7,7 +7,7 @@
 イベントの説明、商品写真、ブランドの参考素材から、視覚的な階層が明確で文字スペースを確保したイベントポスター、プロモバナー、SNS 画像を作成。Claude Code、Cursor、Codex、Windsurf、Cline、OpenClaw のどれからでもそのまま使えます。
 
 > [!IMPORTANT]
-> 生成には [Beatra](https://beatra.ai) アカウントが必要で、クレジットを消費します。スキル自体のインストールは無料です。
+> 生成には [Beatra](https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-poster-maker-skill) アカウントが必要で、クレジットを消費します。スキル自体のインストールは無料です。
 
 | 項目 | 内容 |
 | --- | --- |
@@ -23,7 +23,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`poster-design-studio`](skills/poster-design-studio) | [SKILL.md](skills/poster-design-studio/SKILL.md) | 0.2.2 |
+| [`poster-design-studio`](skills/poster-design-studio) | [SKILL.md](skills/poster-design-studio/SKILL.md) | 0.2.3 |
 
 このリポジトリは [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/poster-design-studio) から自動的に公開されています。問題の報告はそちらへお願いします。
 
@@ -110,7 +110,7 @@ https://github.com/beatra-ai/ai-poster-maker-skill から poster-design-studio �
 
 ## リンク
 
-- ウェブサイト — https://beatra.ai
-- ドキュメント — https://docs.beatra.ai
+- ウェブサイト — https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-poster-maker-skill
+- ドキュメント — https://docs.beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-poster-maker-skill
 - コンソール — https://console.beatra.ai
 - AI エージェント向け — https://beatra.ai/llms.txt（インデックス）· https://beatra.ai/llms-full.txt（全スキルを 1 ファイルに）

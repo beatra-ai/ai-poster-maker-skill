@@ -7,7 +7,7 @@ English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
 Turn an event description, a product photo, or brand references into an event poster, promo banner, or social media graphic with clear visual hierarchy, category-matched style, and space kept for text, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
 > [!IMPORTANT]
-> Rendering needs a [Beatra](https://beatra.ai) account and uses credits. The skill itself is free to install.
+> Rendering needs a [Beatra](https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-poster-maker-skill) account and uses credits. The skill itself is free to install.
 
 | Question | Answer |
 | --- | --- |
@@ -23,7 +23,7 @@ Turn an event description, a product photo, or brand references into an event po
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`poster-design-studio`](skills/poster-design-studio) | [SKILL.md](skills/poster-design-studio/SKILL.md) | 0.2.2 |
+| [`poster-design-studio`](skills/poster-design-studio) | [SKILL.md](skills/poster-design-studio/SKILL.md) | 0.2.3 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/poster-design-studio). Report issues there.
 
@@ -124,7 +124,7 @@ ClawHub.
 
 ## Links
 
-- Website — https://beatra.ai
-- Docs — https://docs.beatra.ai
+- Website — https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-poster-maker-skill
+- Docs — https://docs.beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-poster-maker-skill
 - Console — https://console.beatra.ai
 - For AI agents — https://beatra.ai/llms.txt (index) · https://beatra.ai/llms-full.txt (every skill in one file)
