@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ai-poster-maker-skill",
+  "description": "The Beatra AI Poster Maker skill as a Claude Code plugin.",
+  "owner": {
+    "name": "Beatra AI",
+    "url": "https://github.com/beatra-ai"
+  },
+  "plugins": [
+    {
+      "name": "poster-design-studio",
+      "source": "./",
+      "description": "Turn a topic description, a product photo, or brand references into a scroll-stopping event poster, promotional banner, or social media graphic with strong visual hierarchy, category-matched styling, and text-safe zones."
+    }
+  ]
+}

@@ -35,6 +35,33 @@
 npx skills add beatra-ai/ai-poster-maker-skill
 ```
 
+作为 Claude Code 插件：
+
+```bash
+claude plugin marketplace add beatra-ai/ai-poster-maker-skill
+claude plugin install poster-design-studio@ai-poster-maker-skill
+```
+
+作为 Codex 插件：
+
+```bash
+codex plugin marketplace add beatra-ai/ai-poster-maker-skill
+codex plugin add poster-design-studio@ai-poster-maker-skill
+```
+
+作为 GitHub Copilot CLI 插件：
+
+```bash
+copilot plugin marketplace add beatra-ai/ai-poster-maker-skill
+copilot plugin install poster-design-studio@ai-poster-maker-skill
+```
+
+作为 Gemini CLI 扩展：
+
+```bash
+gemini extensions install https://github.com/beatra-ai/ai-poster-maker-skill
+```
+
 使用 GitHub CLI：
 
 ```bash
