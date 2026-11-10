@@ -62,6 +62,12 @@ copilot plugin install poster-design-studio@ai-poster-maker-skill
 gemini extensions install https://github.com/beatra-ai/ai-poster-maker-skill
 ```
 
+作为 Antigravity CLI 插件：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-poster-maker-skill
+```
+
 使用 GitHub CLI：
 
 ```bash
@@ -75,6 +81,14 @@ gh skill install beatra-ai/ai-poster-maker-skill poster-design-studio
 ```text
 从 https://github.com/beatra-ai/ai-poster-maker-skill 安装 poster-design-studio skill（目录 skills/poster-design-studio），然后按它的 SKILL.md 连接我的 Beatra 账号。
 ```
+
+## 输入与输出
+
+| | 类型 | 格式 | 规格 |
+| --- | --- | --- | --- |
+| **输入** | 文本：活动、方案或产品描述，以及标题和信息 | — | — |
+| **输入** | 图片：产品照片或品牌参考图（可选） | JPG、PNG | 单次最多 4 张 |
+| **输出** | 图片：留好文字区域、画面丰富的海报、banner 或社交配图 | — | 2K；画幅 2:3、3:4、1:1、9:16、16:9 |
 
 ## 技术规格与输出限制
 
@@ -128,11 +142,11 @@ gh skill install beatra-ai/ai-poster-maker-skill poster-design-studio
 
 ### 海报会留出放标题和详情的位置吗？
 
-会的。每张海报都预留干净的文字区域——上部、居中或下部——让你放置标题、日期和行动号召时不与画面冲突。
+会的。每张海报都预留干净的文字区域——上部、居中或下部——用来放标题、日期和行动号召。
 
-### 能修复已认可海报的某个区域吗？
+### 能只修海报的某个区域吗？
 
-可以。上传已认可的海报，描述需要修复的地方——杂物角落、色温或标题对比度——编辑只针对该区域，不改变其他部分。
+可以。上传海报，说明要修的地方——杂物角落、色温或标题对比度——就在你的海报上修改这一处。
 
 ## 更新与安全
 
@@ -142,7 +156,9 @@ gh skill install beatra-ai/ai-poster-maker-skill poster-design-studio
 
 ## 许可证
 
-[MIT-0](LICENSE)：可自由使用、修改和再分发，包括商用，无需署名；与这些 skill 在 ClawHub 上的条款一致。
+本仓库的 Skill 文件（`SKILL.md`、参考文档和脚本）与本 README 采用 [MIT-0](LICENSE) 许可：可自由使用、修改和再分发，包括商用，无需署名。
+
+内容生成在 Beatra 云端完成，适用 [Beatra 服务条款](https://www.beatra.cn/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-poster-maker-skill)。
 
 ## 相关链接
 

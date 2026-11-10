@@ -62,6 +62,12 @@ Gemini CLI 拡張機能として：
 gemini extensions install https://github.com/beatra-ai/ai-poster-maker-skill
 ```
 
+Antigravity CLI プラグインとして：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-poster-maker-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash
@@ -75,6 +81,14 @@ gh skill install beatra-ai/ai-poster-maker-skill poster-design-studio
 ```text
 https://github.com/beatra-ai/ai-poster-maker-skill から poster-design-studio スキル（フォルダ skills/poster-design-studio）をインストールし、その SKILL.md に従って私の Beatra アカウントに接続してください。
 ```
+
+## 入力と出力
+
+| | 種類 | 形式 | 仕様 |
+| --- | --- | --- | --- |
+| **入力** | テキスト：イベント、キャンペーン、商品の説明と見出しや詳細 | — | — |
+| **入力** | 画像：商品写真やブランドの参考画像（任意） | JPG、PNG | 1 リクエストあたり最大 4 枚 |
+| **出力** | 画像：テキストスペース付きの写真リッチなポスター、バナー、SNS画像 | — | 2K／アスペクト比 2:3、3:4、1:1、9:16、16:9 |
 
 ## 技術仕様と出力上限
 
@@ -119,11 +133,11 @@ https://github.com/beatra-ai/ai-poster-maker-skill から poster-design-studio �
 
 ### 見出しと詳細用のスペースはありますか？
 
-はい。すべてのポスターにクリーンなテキストスペース（上部、中央、下部）が予約されており、見出し、日付、CTAを画像と干渉せずに追加できます。
+はい。すべてのポスターに、見出し、日付、CTAを入れるクリーンなテキストスペース（上部、中央、下部）があります。
 
-### 承認済みポスターの特定のエリアを修正できますか？
+### ポスターの一部だけを直せますか？
 
-はい。承認済みポスターをアップロードし、修正したい箇所（雑然したコーナー、色温度、見出しコントラスト）を指定すると、そのエリアだけが編集され、他の部分は変わりません。
+はい。ポスターをアップロードし、直したい箇所（散らかった隅、色温度、見出しのコントラスト）を伝えると、そのポスター上でその箇所を直します。
 
 ## 更新とセキュリティ
 
@@ -133,7 +147,9 @@ https://github.com/beatra-ai/ai-poster-maker-skill から poster-design-studio �
 
 ## ライセンス
 
-[MIT-0](LICENSE)：商用を含め、自由に使用・改変・再配布できます。クレジット表記は不要です。ClawHub 上のこれらのスキルと同じ条件です。
+このリポジトリのスキルファイル（`SKILL.md`、リファレンス、スクリプト）とこの README は [MIT-0](LICENSE) で提供しています。商用を含め、自由に使用・改変・再配布でき、クレジット表記は不要です。
+
+生成は Beatra のクラウドサービスで行われ、[Beatra 利用規約](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-poster-maker-skill)が適用されます。
 
 ## リンク
 

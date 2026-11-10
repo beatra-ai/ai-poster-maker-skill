@@ -62,6 +62,12 @@ As a Gemini CLI extension:
 gemini extensions install https://github.com/beatra-ai/ai-poster-maker-skill
 ```
 
+As an Antigravity CLI plugin:
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-poster-maker-skill
+```
+
 With the GitHub CLI:
 
 ```bash
@@ -77,6 +83,14 @@ Or paste this into your agent:
 ```text
 Install the poster-design-studio skill from https://github.com/beatra-ai/ai-poster-maker-skill (folder skills/poster-design-studio), then follow its SKILL.md to connect my Beatra account.
 ```
+
+## Inputs and outputs
+
+| | Type | Formats | Specifications |
+| --- | --- | --- | --- |
+| **Input** | Text — Event, campaign, or product description with the headline and details | — | — |
+| **Input** | Image — Product photo or brand references (optional) | JPG, PNG | up to 4 images per request |
+| **Output** | Image — Photo-rich poster, banner, or social graphic with a text-safe zone | — | 2K; aspect ratios 2:3, 3:4, 1:1, 9:16, 16:9 |
 
 ## Technical Specifications & Output Limits
 
@@ -130,11 +144,11 @@ Yes. Upload your product photo and the tool transforms it into a polished launch
 
 ### Will there be space for my headline and details?
 
-Yes. Every poster reserves a clean text-safe zone—top band, center, or lower third—so you can add your headline, dates, and call-to-action without clashing with the image.
+Yes. Every poster reserves a clean text-safe zone—top band, center, or lower third—for your headline, dates, and call-to-action.
 
-### Can I fix a specific area of an accepted poster?
+### Can I fix one area of a finished poster?
 
-Yes. Upload the accepted poster, describe what to fix—a cluttered corner, color temperature, or headline contrast—and the edit targets only that area.
+Yes. Upload the poster and describe what to fix—a cluttered corner, color temperature, or headline contrast—and that area is edited on your poster.
 
 ## Updates and security
 
@@ -145,9 +159,10 @@ Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
-[MIT-0](LICENSE) — free to use, modify, and redistribute, including
-commercially. No attribution required. Same terms as these skills carry on
-ClawHub.
+The skill files in this repository (`SKILL.md`, references, and scripts) and this README are licensed under
+[MIT-0](LICENSE): free to use, modify, and redistribute, including commercially, with no attribution required.
+
+Media generation runs on Beatra's cloud service under the [Beatra Terms of Service](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-poster-maker-skill).
 
 ## Links
 
